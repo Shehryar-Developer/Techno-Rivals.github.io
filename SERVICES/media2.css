@@ -1,0 +1,327 @@
+@media screen and (max-width:360px  ) {
+  .header h1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+   color:black;
+    /* text-decoration-thickness: 8px; */
+    text-decoration-skip-ink: none;
+  background-color: #0c8946;
+text-shadow: none;  
+}
+  .header#demo{
+      size: 40px;
+  }
+  /* responsive form */
+  .collaborate, .FORM, .E1, .coli, .col-75 {
+      box-sizing: border-box;
+  }
+  
+  .collaborate input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #7c3333;
+      border-radius: 20px;
+      resize: vertical;
+  }
+  
+  label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+  }
+  
+  input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+  }
+  
+  input[type=submit]:hover {
+      background-color: #45a049;
+  }
+  
+  .FORM {
+      border-radius: 5px;
+      background-color: #923838;
+      padding: 20px;
+  }
+  
+  .coli {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+  }
+  
+  .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+  }
+  
+  .E1::after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  
+  
+  /* form */
+  .image-before::before {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-image: url(path/to/your/image.png);
+      background-size: cover;
+      margin-right: 10px;
+    }
+  /* header */
+      .img1 {
+      width: 100%;
+      height: 335px;
+      top: 137px;
+      position: absolute;
+      /* height: 376px; */
+      left: 0px;
+  }
+  
+  /* paras */
+  .para-1{
+    height: 500px;
+    position: relative;
+    top: 0px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    /* background-color: #0C8945; */
+    color: #000;
+    background-size: cover;
+    background-image: url(/PROJECT/TR_images/services/social.png);
+    /* background-image: url(/PROJECT/TR_images/SOCIAL-f.jpg); */
+  }
+     
+
+  .BT{
+    background: black;
+    width: 25%;
+    position: relative;
+    margin-top: -30px;
+    top: -553px;
+    left: 253px;
+    color: white;
+  }
+  /* .img3{
+      transform: rotate(344deg);
+      top: 108px;
+      opacity: 0.5;
+      width: 858px;
+      height: 234px;
+      left: -30px;
+      position: relative;
+  } */
+  .Icontent{
+      top: 20px;
+      left: 32px;
+      position: relative;
+      box-sizing: border-box;
+     }
+     .Icontent h1{
+      
+      left: -24px;
+      position: relative;
+     }
+     /*  */
+  .para-2{
+      height: 500px;
+          position: relative;
+          /* border: black solid; */
+          top:313px
+      }
+  .img4{
+      width: 251px;
+      height: 139px;
+      left: 30;
+      left: 823px;
+      position: sticky;
+     }
+  .Wcontent{
+      color: black;
+      top: -160px;
+      left: -92px;
+      position: relative;
+      box-sizing: border-box;
+      font-weight: 800;
+  }
+  /*  */
+  .para-3{
+      background-image: url(/PROJECT/TR_images/con_add.jpg);
+      height: 455px;
+      /* background-color: #0c8946; */
+      position: relative;
+      top: 0px;
+      /* background-color: #0C8945; */
+      color: #785c5c;
+      background-position-x: center;
+      background-position-y: bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .img5{
+      width: 251px;
+      height: 139px;
+      left: 30;
+      left: 823px;
+      position: sticky;
+     }
+     .COcontent{
+      top: 0px;
+      left: -92px;
+      position: relative;
+      box-sizing: border-box;  
+  
+     }
+     /*  */
+     .para-4{
+      background-size: cover;
+      color: white;
+      background-image: url(/PROJECT/TR_images/seo_serv.png);
+      height: 375px;
+      width: 100%;
+      left: 0%;
+      position: relative;
+      top:  20px;
+      /* color: black; */
+      background-position-x: center;
+      background-position-y: center;
+      background-repeat: no-repeat;
+     }
+     .SEcontent{
+      width: 100%;
+      top: 18px;
+      left: 75px;
+      position: relative;
+      box-sizing: border-box;
+     }
+     .img4{
+      box-shadow: 16px -8px 77px;
+      border-radius: 2px;
+      transform: rotate(1deg);
+      top: 211px;
+      /* opacity: 0.5; */
+      width: 403px;
+      height: 278px;
+      left: 791px;
+      position: relative
+  }
+  .para-4 .img4:hover {
+      box-shadow: none;
+      border: #0c8946 solid;
+    }
+  /* why us */
+  
+      .why-content{
+      border: #04AA6D solid;
+  }
+  .collaborate{
+      position: relative;
+      top:-260px;
+  }
+  .join{
+      left:750px;
+      position:relative;
+      width:370px;
+      top:65px;
+  }
+  
+  .img6{
+      position: absolute;
+      width: 679px;
+      background-color: floralwhite;
+      height: 483px;
+      border-radius: 84px;
+      opacity: 0.4;
+      top: 10px;
+      left: 90px;
+  }
+  .video1{  
+      width: 394px;
+      height: 290px;
+      top: 191px;
+      position: absolute;
+      height: 5;
+      left: 876px;
+      opacity: 1;
+  }
+  .webii{
+    top: -62px;
+    height: 32pc;
+    width: 29pc;
+    opacity: 0.7;
+    left: 0px;
+  }
+  button.contact-btn {
+      left: -508px;
+      background: linear-gradient(90deg, #0c8946, #0c8946);
+      padding: 13px 4px;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-family: "Nunito";
+      font-weight: 800;
+      cursor: pointer;
+      margin: 20px 0px;
+      transition: all 0.5s ease;
+      top: 57px;
+  }
+  .iframe{
+      position: relative;
+      top: -40px;
+      height: 250px;
+      left: 100px;
+      width: 403px;
+      border: #0c8946 3px dotted;
+  }
+  /* .video-background{
+      border:black solid;
+  } */
+  
+  /* location */
+  .our-location{
+      position: relative;
+      top: -281px;
+      color: white;}
+  
+      body {
+          overflow-x: hidden;
+        }
+  
+  .form-contact{
+          word-spacing: 5px;
+          top: -137px;
+          position: relative;
+          background-color: rgba(0,123,255,.25);
+          color: black;
+          padding: 0px;
+          border-style: groove;
+          border-radius: 50px;
+          font-size: larger;
+          font-weight: 3;
+          font-weight: 300;
+          font-weight: 700;
+          align-items: center;
+          text-align: center;
+          border-color: #0c8946;
+          width: 325px;
+          height: 515px;
+          border-top-right-radius: 290px;
+          border-top-style: solid;
+          border-width: medium;
+          border-bottom-right-radius: 0px;
+      
+  }
+}
+  /* .assistanc

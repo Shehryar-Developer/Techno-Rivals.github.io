@@ -1,0 +1,265 @@
+@media (max-width: 360px) {
+    body{
+        overflow-x:hidden;
+    }
+    .header h1 {
+        margin-left: 226px;
+        position: relative;
+        display: inline-block;
+        top: 222px;
+        font-size: 34px;
+        color:#0c8946;
+        border-bottom-left-radius: 42px;
+        box-sizing: border-box;
+    }
+    .header p {
+        margin-top: 164px;
+        font-size: 11px;
+        position: relative;
+        margin-left: 389px;
+    }
+    .content-header {
+        position: relative;
+        top: -70px;
+        margin-left: -226px;
+    }
+    .header img {
+        width: 222px;
+        position: absolute;
+        height: 182px;
+        margin-left: 50px;
+        top: -37px;
+        border-radius: 39px;
+        z-index: 4;
+    }
+    .para-1 .IP {
+        font-size: 16px;
+        color: black;
+        position: relative;
+        line-height: 20px;
+        font-size: 12px;
+    
+    }
+ 
+    .para-1 h1 {
+        margin-left: 0px;
+        left:280px;
+        font-size: 30px;
+        color: black;
+        position: relative;
+    }
+    .Icontent {
+        margin-top: 275px;
+    left: -280px;
+    position: relative;
+    box-sizing: border-box;
+    top:0px;
+    }
+    .BT {
+        border: none;
+        background: white;
+        width: 8%;
+        position: relative;
+        margin-top: -111px;
+        top: -127px;
+        left: -3px;
+        height: 30px;
+    }
+    .para-1 {
+        height: 500px;
+        position: relative;
+        margin-top: -545px;
+        top: 0px;
+        background-repeat: no-repeat;
+        background-position-x: left;
+        color:black;        background-size: 360px 265px;
+        background-image: url(/PROJECT/TR_images/services/sociaL.png);
+      
+    }
+    .para-2 .Wcontent p{
+        font-size: 16px;
+        color: black;
+        position: relative;
+        line-height: 20px;
+        font-size: 12px;
+        margin-top: -473px;
+        margin-left: 0px;
+    }
+    /* test2 */
+    .para-2 h1 {
+        background-repeat: no-repeat;
+        height: 500px;
+        background-size: 360px 265px;
+        background-position-y: center;
+        font-size: 30px;
+        color: black;
+        position: relative;
+        margin-left: 9px;
+    }
+    .Wcontent {
+        color:black;
+        top: 400px;
+        left: -7px;
+        position: relative;
+        box-sizing: border-box;
+        font-weight: 800;
+    }
+    .para-2 {
+        background-repeat: no-repeat;
+        height: 500px;
+        position: relative;
+                background-image: url(/PROJECT/TR_images/services/web.png);
+        background-size: 1349px 498px;
+        background-size: 360px 265px;
+        background-position-y: center;
+    }
+    .para-3 {
+        background-image: url(/PROJECT/TR_images/services/content.png);
+        height: 500px;
+        position: relative;
+        margin-top: -290px;
+        color:black;
+        background-position-x: center;
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+        background-size: 360px 265px;
+    }
+    .Ccontent {
+        color: black;
+        top: 514px;
+        left: -7px;
+        position: relative;
+        box-sizing: border-box;
+    }
+    .para-3 h1 {
+        color:black;
+        font-size: 30px;
+        left:9px;
+    }
+
+    /* test1 */
+    .para-3 p {
+        margin-left:0px;
+        line-height: 20px;
+        font-size: 12px;        
+    }
+  
+    .para-4 {
+        background-size: 360px 265px;
+        color:black;
+        background-image: url(/PROJECT/TR_images/services/seo.png);
+        height: 500px;
+        width: 100%;
+        left: 0%;
+        position: relative;
+        top: -397px;
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        margin-top: 520px;
+    }
+    .SEcontent {
+        color: black;
+    top: 405px;
+    left: -7px;
+    position: relative;
+    box-sizing: border-box;
+    }
+    .para-4 h1 {
+        color: black;
+        font-size: 30px;
+    }
+    .para-4 p {
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .para-5 h1 {
+        font-size: 30px;
+        margin-left: -180px;
+        color:black;
+        margin-top: -18px;
+    }
+    .Bcontent {
+        color:black;
+        top: 419px;
+        left: -7px;
+        position: relative;
+        box-sizing: border-box;
+    }
+    .para-5 p {
+        color:black;
+        line-height: 13px;
+          float: right;
+        position: relative;
+        font-size: 12px;
+        line-height: 20px;
+        left:0px;
+    }
+    .para-5 {
+        margin-top: -260px;
+        background-size: 360px 265px;
+        color:black;
+        background-image: url(/PROJECT/TR_images/services/brand.png);
+        height: 500px;
+        width: 100%;
+        left: 0%;
+        position: relative;
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+    }
+    .para-6 {
+        background-size: 360px 265px;
+        color:black;
+        background-image: url(/PROJECT/TR_images/services/graphic.png);
+        height: 500px;
+        width: 100%;
+        left: 0%;
+        position: relative;
+       
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        margin-top: 67px;
+        }
+    .para-6 p {
+        margin-left: -24px;
+        color:black;
+        line-height: 20px;
+  
+        font-size: 12px;
+    }
+    /* test3 */
+    .para-6 h1 {
+        position: relative;
+        left:-9px;
+        font-size: 30px;
+        margin-left: -75px;
+        color:black;
+    }
+    .Gcontent {
+        color:black;
+        top: 400px;
+        left: 7px;
+        position: relative;
+        box-sizing: border-box;
+        font-weight: 800;
+    }
+    .footer-top p {
+        margin-top: -60px;
+        font-size: 14px;
+    }
+    footer {
+        display: block;
+        position: relative;
+        top: 160px;
+      
+        text-align: center !important;
+        padding-top: 80px;
+        color:black;        background: #0c8946;
+    }
+    .footer-top {
+        margin-bottom: 26px;
+    }
+    
+}

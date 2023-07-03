@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="/PROJECT/TR_images/logo1bg.png" sizes="32x2000" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div class="back">
+    <button class="BT" onclick="goBack()">
+    <i class="fa fas fa-arrow-left fa-solid fa-lg" style="color:white;"></i>
+    </div>
+    <!-- alert messages start -->
+<div class="alert-success" id="kamyab" >
+    <span>Message Sent! Thank you for contacting us.</span>
+</div>
+
+    <!-- <div class="alert-error">
+     <span>Something went wrong!Please try again</span>
+</div> -->
+    <!-- alert messages end -->
+    <!-- contact section start -->
+  <div class="contact-section">
+    <div class="contact-info">
+        <div><i class="fa-solid fa-location-dot" style="color: #0c8946;"></i>Address,City,Country</div>
+        <div><i class="fa-solid fa-envelope" style="color: #0c8946;"></i>info@techno-rivals.com</div>
+        <div><i class="fa-solid fa-phone" style="color: #0c8946;"></i>021-2323232</div>
+        <div><i class="fa-solid fa-clock" style="color: #0c8946;"></i>Mon-Fri : 8pm-5am</div>
+    </div>
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form class="contact" action="" method="post">
+            <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+            <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <input type="submit" onclick="success()" name="submit" class="send-btn" value="Send">
+        </form>
+    </div>
+  </div>
+
+  <footer class="footer-distributed">
+    <div class="footer-left">
+      <h3>Techno<span>-Rivals</span></h3>
+
+      <p class="footer-links">
+        <a href="/PROJECT/index.php">Home</a>
+        |
+        <a href="/PROJECT/About-us">About</a>
+        |
+        <a href="/PROJECT/SERVICES/">Service</a>
+        |
+        <a href="#">Engage</a>
+      </p>
+      
+      <p class="footer-company-name">
+        Copyright@2023<strong>Techno-Rivals</strong>
+        All rights reserved</p>
+      </p>
+    </div>
+
+    <div class="footer-center">
+    <div><i class="fa-solid fa-location-dot" style="color:black;"></i>Address,City,Country</div>
+        <div><i class="fa-solid fa-envelope" style="color: black;"></i>info@techno-rivals.com</div>
+        <div><i class="fa-solid fa-phone" style="color:black;"></i>021-2323232</div>
+        <div><i class="fa-solid fa-clock" style="color:black;"></i>Mon-Fri : 8pm-5am</div>
+        
+    </div>
+
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About the Company</span>
+            <strong>Techno-Rivals</strong>loerem ore mda  dmadpamdp dawomda
+            dwmaodmaw odmwapda dmwapea pdaonfan
+        </p>
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/profile.php?id=100091509381433" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/TechnoRivals" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/techno_rivals/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/techno-rivals/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </div>
+    </div>
+    
+  </footer>
+
+<script>
+      function goBack() {
+    window.location.href = document.referrer;
+  }
+    function success(){
+    console.log("ds")
+    var element = document.getElementById("kamyab");
+    element.style.display="block";
+    setTimeout(function() {
+            element.style.display = "none";
+        }, 3000);
+}
+  </script>
+    <!-- contact section ends -->
+</body>
+</html>

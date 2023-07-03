@@ -1,0 +1,17 @@
+@media screen and (max-width:360px  ) {
+.header h1{
+    /* border: solid 2PX black; */
+    text-align: center;
+    /* border: solid 2PX black; */
+    /* background-color: #0c8496; */
+    font-size: xx-large;
+    font-family: cursive;
+    text-shadow: -35px 18px 5px;
+    /* background-color: #0c8496; */
+}
+.header#demo{
+    
+}
+
+
+}
